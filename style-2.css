@@ -27,17 +27,13 @@ section {
 	padding: 10rem 2rem;
 }
 
-h1 {
-
-}
-
 .landing-text {
 	position: absolute;
 	top: 35%;
 	left: 50%;
 	transform: translate(-50%, -50%); /*send the text perfectly in the middle*/
 	width: 95%;
-    height:60%;
+    height:50%;
     background-image: url('/wine.jpg');
     background-size: cover;
     opacity: 0.7;
@@ -64,7 +60,7 @@ h1 {
 .main {
     margin: 20px;
     padding: 10px;
-    width: 90rem;
+    width: 93%;
     box-shadow: 2rem 1.2rem 3rem rgba(10, 10, 11, 0.7);
     background-color:  rgba(250, 234, 247,0.5);
     text-align: left;
@@ -72,25 +68,57 @@ h1 {
 
 
 @media screen and (max-width: 1550px) {
-    .main{
-        width: 80rem;
-    }
+    /* .landing-text {
+        width: 85%;
+        height:50%;
+    } */
+
+    /* .main{
+        width: 78%;
+    } */
 }
 
 @media screen and (max-width: 1300px) {
-    .main{
-        width: 60rem;
+    .landing-text {
+        /* width: 85%;
+        height:50%; */
+        /* top: 30%;
+        left: 50% */
     }
+    
+    /* .main{
+        width: 90%;
+    } */
 }
 
 @media screen and (max-width: 1050px) {
-    .main{
-        width: 40rem;
+    .landing-text {
+        /* width: 75%;
+        height:45%; */
+        /* top: 30%;
+        left: 50% */
     }
+
+    .landing-text h1, 
+    .landing-text h4 {
+    margin: 0 1rem;
+}
+
+    /* .main {
+        width:90%;
+    } */
 }
 
 @media screen and (max-width: 700px) {
-    .main{
-        width: 20rem;
+    .landing-text {
+        /* width: 75%;
+        height: 30%; */
+        /* top: 25%;
+	    left: 50%; */
+    }
+    .landing-text h1, 
+    .landing-text h4 {
+        margin: 0rem 2rem 2rem;
+        font-size: 1.2rem;
     }
 }
