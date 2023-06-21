@@ -34,7 +34,7 @@ section {
 	transform: translate(-50%, -50%); /*send the text perfectly in the middle*/
 	width: 95%;
 	height:50%;
-    	background-image: url('/wine.jpg');
+    	background-image: url('wine.jpg');
     	background-size: cover;
     	opacity: 0.7;
     	text-align:left;
