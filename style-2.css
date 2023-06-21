@@ -27,19 +27,16 @@ section {
 	padding: 10rem 2rem;
 }
 
+
+
 .landing-text {
 	position: absolute;
 	top: 35%;
 	left: 50%;
 	transform: translate(-50%, -50%); /*send the text perfectly in the middle*/
 	width: 95%;
-<<<<<<< HEAD
     height:50%;
     background-image: url('/wine.jpg');
-=======
-    height:60%;
-    background-image: url('wine.jpg');
->>>>>>> 330ff6605380090603ee500e4983c4ce657991e6
     background-size: cover;
     opacity: 0.7;
     text-align:left;
@@ -48,7 +45,6 @@ section {
     color: white;
     font-size: 1.3rem;
 }
-
 .landing-text h1, 
 .landing-text h4 {
     transform: translate(0%, 600%); /*send the text per6ectly in the middle*/
