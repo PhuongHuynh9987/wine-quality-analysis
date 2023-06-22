@@ -12,14 +12,14 @@ html {
     box-sizing: border-box;
     margin: 0;
 	padding: 0;
-    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 body{
     width: 100%;
 	height: 100%;
     min-height: 100vh; 
-    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     /* text-align: center; */
     /* letter-spacing: 1.5px; */
 }
@@ -29,10 +29,10 @@ section {
 
 .landing-text {
 	position: absolute;
-	top: 35%;
+	top: 15%;
 	left: 50%;
 	transform: translate(-50%, -50%); /*send the text perfectly in the middle*/
-	width: 95%;
+	width: 100%;
     height:50%;
     background-image: url('wine.jpg');
     background-size: cover;
@@ -47,23 +47,33 @@ section {
 .landing-text h1, 
 .landing-text h4 {
     transform: translate(0%, 600%); /*send the text per6ectly in the middle*/
-    /* font-family: 'Montserrat', sans-serif; */
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    font-weight: 900;
     margin: 0 5rem;
 }
 
-/* .main p {
-   position: relative;
-   font-size: large;
-} */
-
 .main {
     /* margin: 1rem; */
-    padding: 10px;
-    width: 96%;
-    box-shadow: 2rem 1.2rem 3rem rgba(10, 10, 11, 0.7);
-    background-color:  rgba(250, 234, 247,0.5);
+    padding: 3rem;
+    width: 91%;
+    box-shadow: 0.2rem 0.2rem 1rem rgba(10, 10, 11, 0.7);
+    background-color:  rgba(250, 234, 247,0.3);
     text-align: left;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+p {
+    line-height: 1.6rem;
+    font-weight: light;
+}
+
+.main h2{
+    font-weight: bolder;
+}
+
+li{
+    list-style-type: none;
+    margin: 1.2rem;
 }
 
 @media screen and (max-width: 1550px) {
@@ -85,16 +95,14 @@ section {
         left: 50%
     } */
     
-    /* .main{
-        width: 90%;
-    } */
+    .main{
+        width: 89%;
+    }
 }
 
 @media screen and (max-width: 1050px) {
     .landing-text {
-        width: 75%;
         height:45%;
-        top: 30%;
         left: 50%
     }
 
@@ -105,6 +113,7 @@ section {
 
     .main {
         margin-top: 20rem;
+        width: 85%;
     }
 }
 
