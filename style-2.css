@@ -41,7 +41,7 @@ section {
     justify-content: center;
     font-weight: bolder;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 .landing-text h1, 
@@ -76,18 +76,10 @@ li{
 }
 
 img {
-    width: 100%;
+    width: 70%;
 }
 
 @media screen and (max-width: 1550px) {
-    /* .landing-text {
-        width: 85%;
-        height:50%;
-    } */
-
-    /* .main{
-        width: 78%;
-    } */
 }
 
 @media screen and (max-width: 1300px) {            /*iPad*/
@@ -97,7 +89,7 @@ img {
 
     .landing-text h1, 
     .landing-text h4 {
-        margin: 6rem 4rem;
+        margin: 7rem 4rem;
     }
 
     .main{
@@ -114,14 +106,15 @@ img {
 
 @media screen and (max-width: 700px) {               /*iPhone*/
     .landing-text{
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
     .landing-text h1, 
     .landing-text h4 {
-        margin: 4rem 2rem;
+        margin: 6rem 2rem;
     }
     .main {
+        padding: 1rem;
         margin-top: 0rem;
-        width: 70%;
+        width: 80%;
     }
 }
