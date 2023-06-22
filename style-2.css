@@ -95,6 +95,7 @@ li{
     } */
     
     .main{
+        margin-top: 10rem;
         width: 89%;
     }
 }
@@ -111,7 +112,6 @@ li{
 } */
 
     .main {
-        margin-top: 7rem;
         width: 85%;
     }
 }
