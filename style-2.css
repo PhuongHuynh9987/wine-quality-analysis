@@ -111,7 +111,7 @@ li{
 } */
 
     .main {
-        /* margin-top: 10rem; */
+        margin-top: 7rem;
         width: 85%;
     }
 }
@@ -126,7 +126,7 @@ li{
     } */
 
     .main {
-        margin: 0rem;
+        margin-top: 0rem;
         width: 70%;
     }
 }
