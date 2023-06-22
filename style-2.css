@@ -86,7 +86,7 @@ li{
     } */
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {            /*iPad*/
     /* .landing-text {
         width: 85%;
         height:50%;
@@ -116,10 +116,11 @@ li{
     }
 }
 
-@media screen and (max-width: 700px) {
-    /* .landing-text {
-        font-size: 0.9rem;
-    } */
+@media screen and (max-width: 700px) {               /*iPhone*/
+    .landing-text h1, 
+    .landing-text h4 {
+        margin: 1rem 4rem;
+    }
 
     .main {
         margin-top: 0rem;
