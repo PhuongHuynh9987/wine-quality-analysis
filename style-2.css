@@ -91,12 +91,12 @@ section {
 }
 
 @media screen and (max-width: 1050px) {
-    /* .landing-text {
+    .landing-text {
         width: 75%;
         height:45%;
         top: 30%;
         left: 50%
-    } */
+    }
 
     .landing-text h1, 
     .landing-text h4 {
