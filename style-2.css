@@ -26,6 +26,7 @@ body{
 section {
 	padding: 10rem 2rem;
 }
+
 .landing-text {
 	position: absolute;
 	top: 35%;
@@ -40,7 +41,7 @@ section {
     justify-content: center;
     font-weight:bolder;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .landing-text h1, 
@@ -57,14 +58,14 @@ section {
 } */
 
 .main {
-    margin: 10px;
+    /* margin: 1rem; */
     padding: 10px;
-    width: 93%;
+    width: 96%;
+    margin-top: 40rem;
     box-shadow: 2rem 1.2rem 3rem rgba(10, 10, 11, 0.7);
     background-color:  rgba(250, 234, 247,0.5);
     text-align: left;
 }
-
 
 @media screen and (max-width: 1550px) {
     /* .landing-text {
