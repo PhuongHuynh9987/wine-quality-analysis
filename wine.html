@@ -58,12 +58,21 @@
            <img src="original.png" alt="original data">
 
            <h2>II. Formatting and Fix data type</h2>
-           <p>The one column are seperated into component columns and datatype was changed from 
-            string to float or int depending on what's needed in order to make sure there aren't any
-            errors when performing calculations later down the line.
+           <p>The one column is seperated into columns for each wine component variable. The datatype is changed from 
+            string to int for quality variable and float for others to make sure there aren't any
+            errors when performing calculations later down the line. After that, two datasets are merged into one table.
             <br></p>
-           </p>
-           <img src='merged_df.png' alt="original data">
+
+            <img src='merged_df.png' alt="original data">
+            <p>The data's information about null values and data types after fixing. The final table 
+                contains no null values with the total of 11 variables for wine components, 1 variable for 
+                quality, and wine type containing indicating red or white wine. </p> 
+            <img src="df.info().png" alt="data info">
+
+            <h2>II. Exploratory Data Analysis (EDA)</h2>
+            <p>Histogram for components' distribution</p>
+            <img src="red_dist.jpg" alt="red distribution">
+            <img src="/white_dist.jpg" alt="white distribution">
         </div>
 
     </section>
