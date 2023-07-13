@@ -27,7 +27,7 @@
             <p>This wine dataset is from UCI machine learning repository. The data contains information about the main components 
                 used for making red and white wine. The purpose for this analysis is to visualize the difference of 
                 the components used betweeen red and white wine and how they are categorized into levels of quality 
-                based on the volume of each component. In this analysis, Python programming will be used along with packages 
+                based on the amount of each component. In this analysis, Python programming language will be used along with packages 
                 and API tool, NumPy, Pandas, Scikit-Learn and Matplotlib, to visualize and build a model that can 
                 predict the data quality using all the components as the predictors. 
             </p>
@@ -52,14 +52,14 @@
 
            <h2>I. Importing Data</h2>
            <p>There are two seperate datasets, one is for red wine and one is for white wine that are downloaded
-            directly from UCI ML repository website. We can notice that it is not well formatted with 
+            directly from UCI ML repository website. We can notice that they are not well formatted with 
             columns are grouped into one single column, so we need to clean up before proceeding further.</p>
            </p>
            <img src="original.png" alt="original data">
 
            <h2>II. Formatting and Fix data type</h2>
            <p>The one column is seperated into columns for each wine component variable. The datatype is changed from 
-            string to int for quality variable and float for others to make sure there aren't any
+            string to int for quality column and float for others to make sure there aren't any
             errors when performing calculations later down the line. After that, two datasets are merged into one table.
             <br></p>
 
@@ -69,7 +69,7 @@
                 quality, and wine type containing indicating red or white wine. </p> 
             <img src="df.info().png" alt="data info">
 
-            <h2>II. Exploratory Data Analysis (EDA)</h2>
+            <h2>III. Exploratory Data Analysis (EDA)</h2>
             <p>Histogram for components' distribution</p>
             <img src="red_dist.jpg" alt="red distribution">
             <img src="white_dist.jpg" alt="white distribution">
@@ -81,7 +81,36 @@
             <p>Here is the average of each component across the quality betwen red and white wine.
                 Total sulfur dioxide amount in both red and white are similar. For red wine, it reaches the 
                 the highest at quality level 5 and the lowest level for white wine.</p>
-            <!-- <p>We see some interesting trend here as most wines contain higher amount of alco -->
+            <p>We see some interesting trends here as red wines contain higher amount of alcohol and fixed acidity.</p>
+            <img src ='close_avg.jpg'>
+            <p>The closer look of the plot shows the trend of a higher average residual sugar in white than in red wine. Moreover,
+                the amount of sulphates is slightly higher in red wine. 
+            </p>
+            
+            <p>Here are the red and white wine correllation plot showing the correllation betweeen each pair of components. </p>
+            <img src="red_corr.jpg" alt="">
+            <img src="white_corr.jpg">
+            <p>For red wine, the highest correllation scores are fixed acidity and citric acid, density and fixed acidity, and a negative relationship
+                is between fixed acidity and pH.</p>
+            <p>For white wine, there exists a positive high correllation between density and residual sugar and
+                a negative high correllation between alcohol and density.
+            </p>
+
+            <p>Here is scatter plot showing the relationship betweeen fixed acidity with pH and citric acid categorized by levels of quality. </p>
+
+            <img src="red_corr_plot.jpg" alt="">
+            <p>We can notice the linearly correllated trend betweeen each pair. All of the levels seem to spread along the regression
+                lines despite the outliers of level 5 and 7 at the higher amount of fixed acidity and the level 4 and 6 at the lower end. 
+            </p>
+
+            <p>And here is for the white wine components</p>
+            <img src="white_corr_plot_1.jpg" alt="">
+            <p>It appears to have the extreme outlier of level 6 with a very high amount of density, so those need to be removed</p>
+            <img src="white_corr_plot2.jpg" alt="">
+            <p>After removing outliers, the relationship shows a clear trend between each pair. Similarly to red wine, all of the
+                levels spread among the lines, and white wine that is at quality level 6 also has very high amount of density. 
+            </p>
+            <img src="/" alt="">
         </div>
 
     </section>
